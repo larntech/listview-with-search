@@ -184,9 +184,10 @@ public class MainActivity extends AppCompatActivity {
                         for(ItemsModel itemsModel:itemsModelsl){
                             if(itemsModel.getName().contains(searchStr) || itemsModel.getEmail().contains(searchStr)){
                                 resultsModel.add(itemsModel);
-                                filterResults.count = resultsModel.size();
-                                filterResults.values = resultsModel;
+                               
                             }
+                             filterResults.count = resultsModel.size();
+                                filterResults.values = resultsModel;
                         }
 
 
