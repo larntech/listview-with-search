@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/images"
+            android:layout_width="50dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/apple"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:text="Names"
+            android:layout_marginStart="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp" />
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:text="Emails"
+            android:layout_marginStart="60dp"
+            android:paddingTop="2dp"
+            android:layout_below="@id/name"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp" />
+    </RelativeLayout>
+
+</LinearLayout>
