@@ -150,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
 
             names.setText(itemsModelListFiltered.get(position).getName());
             emails.setText(itemsModelListFiltered.get(position).getEmail());
-            imageView.setImageResource(images[position]);
+            imageView.setImageResource(itemsModelListFiltered.get(position).getImages());
 
             view.setOnClickListener(new View.OnClickListener() {
                 @Override
